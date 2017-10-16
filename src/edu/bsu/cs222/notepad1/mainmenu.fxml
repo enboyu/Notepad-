@@ -2,6 +2,8 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
@@ -12,7 +14,14 @@
          <font>
             <Font size="46.0" />
          </font></Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@../../../../../../../Desktop/notepad.jpg" />
+         </image>
+      </ImageView>
       <HBox prefHeight="100.0" prefWidth="200.0" />
-      <Button mnemonicParsing="false" onAction="#Newfilesbutton" text="New files" />
+      <Button mnemonicParsing="false" onAction="#Newfilesbutton" text="New files" translateX="-80.0" translateY="25.0" />
+      <Button mnemonicParsing="false" onAction="#Review" prefWidth="65.0" text="Review" />
+      <Button mnemonicParsing="false" onAction="#Quit" prefWidth="65.0" text="Quit" translateX="80.0" translateY="-25.0" />
    </children>
 </VBox>
