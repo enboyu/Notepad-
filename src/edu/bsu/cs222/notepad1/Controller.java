@@ -23,8 +23,16 @@ import java.io.IOException;
 
 
 public class Controller {
-    public void Newfilesbutton(ActionEvent event) throws IOException {
-        Parent tableViewParent = FXMLLoader.load(getClass().getResource("newfilesmune.fxml"));
+
+      public void Newfilesbutton(ActionEvent event) throws IOException {
+//        System.out.print("This is a test");
+//        Stage newStage = new Stage();
+//        Parent newFileView = FXMLLoader.load(getClass().getResource("newfilesmenu.fxml"));
+//        Scene scene = new Scene(newFileView);
+//        newStage.setScene(scene);
+//        newStage.show();
+
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("newfilesmenu.fxml"));
 
         Scene tableViewScene = new Scene(tableViewParent);
 
@@ -38,5 +46,6 @@ public class Controller {
     }
 
     public void Quit(ActionEvent actionEvent) {
+
     }
 }

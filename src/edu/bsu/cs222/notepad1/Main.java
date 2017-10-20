@@ -11,9 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage Stage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("mainmenu.fxml"));
-
         Scene scene = new Scene(root);
-
        /* Stage.setTitle("Notepad+");
 
         */
